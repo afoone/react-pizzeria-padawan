@@ -1,0 +1,39 @@
+{
+    "pizzas": [
+      {
+        "id": 1,
+        "name": "carbonara",
+        "img": "img1",
+        "precio": 5,
+        "novedad": false
+      },
+      {
+        "id": 2,
+        "name": "margarita"
+        "img": "img1",
+        "precio": 4,
+        "novedad": false.
+      },
+      {
+        "id": 3,
+        "name": "barbacoa"
+        "img": "img1",
+        "precio": 5,
+        "novedad": false.
+      },
+      {
+        "id": 4,
+        "name": "chili"
+        "img": "img1",
+        "precio": 6,
+        "novedad": true.
+      },
+      {
+        "id": 5,
+        "name": "mozzarella"
+        "img": "img1",
+        "precio": 5,
+        "novedad": false.
+      }
+    ]
+  }
