@@ -30,7 +30,7 @@ export class ListaPizzas extends Component {
     render() {
         return (
             <div className={`pizza ${this.state.lista}`}>
-                <Pizza></Pizza>
+                
 
                 {
 
