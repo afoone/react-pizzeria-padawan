@@ -3,37 +3,31 @@
       {
         "id": 1,
         "name": "carbonara",
-        "img": "img1",
+        "img": "img\carbonara.png",
         "precio": 5,
         "novedad": false
       },
       {
         "id": 2,
         "name": "margarita"
-        "img": "img1",
+        "img": "img\margarita.png",
         "precio": 4,
         "novedad": false.
       },
       {
         "id": 3,
         "name": "barbacoa"
-        "img": "img1",
+        "img": "img\barbacoa.png",
         "precio": 5,
         "novedad": false.
       },
       {
         "id": 4,
-        "name": "chili"
-        "img": "img1",
+        "name": "prosciutto"
+        "img": "img\prosciutto.png",
         "precio": 6,
         "novedad": true.
       },
-      {
-        "id": 5,
-        "name": "mozzarella"
-        "img": "img1",
-        "precio": 5,
-        "novedad": false .
-      }
+      
     ]
   }
