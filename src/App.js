@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+      App mi pizza
       <ListaPizzas/>
       <Pizza pizza={pizzaprueba}></Pizza>
     </div>

@@ -10,6 +10,7 @@ export class ListaPizzas extends Component {
     render() {
         return (
             <div>
+                ListaPizzas
                 <Pizza pizza={null} ></Pizza>
             </div>
         )
