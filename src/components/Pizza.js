@@ -9,10 +9,19 @@ const Pizza = (props) => {
     console.log(props.valor)
 
     return (
-        <div className = "pizza">
-            {props.valor.name}
+
+    
+        <div className = "pizzaitem">
+         <div>   {props.valor.name} </div>
+        
+          <div> {props.valor.precio} € </div> 
+            
+           <div> <img src={props.valor.img}></img> </div>  
+            
         </div>
+       
     )
 }
+
 
 export default Pizza
