@@ -22,10 +22,9 @@ function App() {
           </li>
         </ul>
 
-       <Route exact path="/" component={ListaPizzas}></Route>
-       <Route exact path="/pizza" component={ListaPizzas}></Route>
+       <Route exact path="/" component={ListaPizzasPage}></Route>
+       <Route exact path="/pizza" component={ListaPizzasPage}></Route>
       </Router>
-      {/* <ListaPizzasPage/> */}
     </div>
   );
 }
