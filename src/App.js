@@ -12,18 +12,18 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <ul>
+        {/* <ul>
           <li>
             <Link to="/">home</Link>
           </li>
           <li>
 
-          <Link to="/pizza">Lista pizzas</Link>
+          <Link to="/pizzas">Lista pizzas</Link>
           </li>
-        </ul>
+        </ul> */}
 
        <Route exact path="/" component={ListaPizzas}></Route>
-       <Route exact path="/pizza" component={ListaPizzas}></Route>
+       <Route exact path="/pizzas" component={ListaPizzas}></Route>
       </Router>
       {/* <ListaPizzasPage/> */}
     </div>
