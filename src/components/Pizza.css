@@ -1,6 +1,38 @@
+.ui centered card {
+margin-top: auto;
+ 
+     }
 
-.pizzaitem {
-    width:50%;
-    height: 50%;
-    border: 1px solid blue;
-}
+   
+
+
+  .color{
+     background-color: lightgray;
+     color: black;
+     font-size: 3rem;
+     font-family: fantasy;
+     text-align: center;
+     text-transform: capitalize;
+     width: auto;
+     height: 3,9rem;
+  }
+ 
+ .content {
+     color:black;
+    
+ 
+ }
+ 
+
+
+ 
+ .color-bajo{
+     background-color: black;
+     color: white;
+     text-align: center;
+     height: auto;
+     font-size: 1,5rem;
+     height: 2rem;
+    
+ }
+ 

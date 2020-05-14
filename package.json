@@ -16,7 +16,6 @@
     "server": "json-server --watch db.json --port 4000",
     "start": "react-scripts start",
     "build": "react-scripts build"
- 
   },
   "eslintConfig": {
     "extends": "react-app"

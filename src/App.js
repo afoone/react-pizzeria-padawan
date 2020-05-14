@@ -1,5 +1,8 @@
 import React from 'react';
 import ListaPizzas from './components/ListaPizzas';
+import Pizza from './components/Pizza'
+import Header from './components/Header'
+import MenuLateral from './components/MenuLateral'
 import ListaPizzasPage from './pages/ListaPizzasPage';
 import {
   BrowserRouter as Router,
@@ -11,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router> <Header></Header> 
         {/* <ul>
           <li>
             <Link to="/">home</Link>
@@ -20,7 +23,10 @@ function App() {
 
           <Link to="/pizzas">Lista pizzas</Link>
           </li>
-        </ul> */}
+        </ul> */
+           
+        }
+        
 
        <Route exact path="/" component={ListaPizzas}></Route>
        <Route exact path="/pizzas" component={ListaPizzas}></Route>
