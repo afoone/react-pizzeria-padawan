@@ -5,31 +5,182 @@
         "name": "carbonara",
         "img": "img/carbonara.png",
         "precio": 5,
-        "novedad": false
+        "novedad": false,
+        "ingredientes": [
+          {
+            "id": 1,
+            "name": "bacon",
+            "precio": 0.5
+          },
+
+          {
+            "id": 2,
+            "name": "queso",
+            "precio": 0.5
+          },
+
+          {
+            "id": 3,
+            "name": "champiñones",
+            "precio":0.50 },
+
+            {
+              "id": 4,
+              "name":"cebolla",
+              "precio":0.50
+            }
+        ]
       },
+
+
+
       {
         "id": 2,
         "name": "margarita",
         "img": "img/margarita.png",
         "precio": 4,
-        "novedad": false
-      },
+        "novedad": false,
+        "ingredientes": [
+          {
+            "id": 1,
+            "name": "queso",
+            "precio": 0.50
+          },
+
+          {
+            "id": 2,
+            "name": "tomate",
+            "precio": 0.50
+          },
+
+          {
+            "id": 3,
+            "name": "albahaca",
+            "precio":0.50 }
+
+        ] },
       {
         "id": 3,
         "name": "barbacoa",
         "img": "img/barbacoa.png",
         "precio": 5,
-        "novedad": false
-      },
+        "novedad": false,
+        "ingredientes": [
+          {
+            "id": 1,
+            "name": "salsa barbacoa",
+            "precio": 0.50
+          },
+
+          {
+            "id": 2,
+            "name": "salami",
+            "precio": 0.50
+          },
+
+          {
+            "id": 3,
+            "name": "pimiento verde",
+            "precio":0.50 },
+            {
+            "id": 4,
+            "name":"pimiento verde",
+            "precio":0.50
+            },
+      
+            {"id": 5,
+            "name":"carne picada",
+            "precio": 0.50 }
+
+        ] },
+      
       {
         "id": 4,
         "name": "prosciutto",
         "img": "img/prosciutto.png",
         "precio": 6,
-        "novedad": true
-      }
-      
-    ],
+        "novedad": true,
+        "ingredientes": [
+          {
+            "id": 1,
+            "name": "queso",
+            "precio": 0.50
+          },
+
+          {
+            "id": 2,
+            "name": "peperoni",
+            "precio": 0.50
+          },
+
+          {
+            "id": 3,
+            "name": "tomate",
+            "precio":0.50 }
+
+        ] },
+        {
+          "id": 5,
+          "name": "hawaiana",
+          "img": "img/hawaiana.png",
+          "precio": 5,
+          "novedad": true,
+          "ingredientes": [
+            {
+              "id": 1,
+              "name": "queso",
+              "precio": 0.50
+            },
+  
+            {
+              "id": 2,
+              "name": "bacon",
+              "precio": 0.50
+            },
+  
+            {
+              "id": 3,
+              "name": "piña",
+              "precio":0.50 }
+  
+          ] },
+
+          {
+            "id": 5,
+            "name": "Queso de Cabra",
+            "img": "img/QuesoCabra.png",
+            "precio": 5,
+            "novedad": true,
+            "ingredientes": [
+              {
+                "id": 1,
+                "name": "queso de cabra",
+                "precio": 0.50
+              },
+    
+              {
+                "id": 2,
+                "name": "cebolla",
+                "precio": 0.50
+              },
+    
+              {
+                "id": 3,
+                "name": "tomates asados",
+                "precio":0.50 },
+
+                {
+                  "id": 4,
+                  "name": "albahaca",
+                  "precio":0.50 }
+    
+            ] }
+
+
+
+       ] ,
+       
+       
     "ingredientes": [
       {
         "id": 1,
