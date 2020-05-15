@@ -29,5 +29,120 @@
         "novedad": true
       }
       
+    ],
+    "ingredientes": [
+      {
+        "id": 1,
+        "name": "cebolla",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 2,
+        "name": "queso",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 3,
+        "name": "salami",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 4,
+        "name": "prosciutto",
+        "img": "",
+        "precio": 0.50,
+        "novedad": true
+      },
+      {
+        "id": 5,
+        "name": "peperoni",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 6,
+        "name": "pimiento verde",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 7,
+        "name": "pimiento rojo",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 8,
+        "name": "aceitunas",
+        "img": "",
+        "precio": 0.50,
+        "novedad": true
+      },
+      {
+        "id": 9,
+        "name": "champiñones",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 10,
+        "name": "bacon",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 11,
+        "name": "carne picada",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 12,
+        "name": "pollo",
+        "img": "",
+        "precio": 0.50,
+        "novedad": true
+      },
+      {
+        "id": 13,
+        "name": "alcaparras",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 14,
+        "name": "cheddar",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 15,
+        "name": "tomate",
+        "img": "",
+        "precio": 0.50,
+        "novedad": false
+      },
+      {
+        "id": 16,
+        "name": "chocolate",
+        "img": "",
+        "precio": 0.50,
+        "novedad": true
+      }
+      
     ]
   }
