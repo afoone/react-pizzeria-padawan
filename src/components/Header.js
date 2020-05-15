@@ -9,8 +9,7 @@ const Header = () => {
            <i className="circular food icon"></i>
           <h1 className="texto"> Pizzería Padawan </h1>
           <h3 className="texto2">Cortada con sable láser</h3>
-        <hr></hr>
-        <br></br>
+        <hr className="espacio"></hr>
         </h1>
       
    )
