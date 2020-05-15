@@ -6,7 +6,7 @@ export class MenuLateral extends Component {
 
             <div className="menu-lateral">
 
-            <img src="public/logo192.png" alt=""></img> 
+            <img src="/logo192.png" alt=""></img> 
 
             <div class="ui vertical pointing menu">
                 <a class="active item" href="/pizzas/add">
