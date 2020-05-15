@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 
 export class MenuLateral extends Component {
     render() {
@@ -9,15 +10,14 @@ export class MenuLateral extends Component {
             <img src="/logo192.png" alt=""></img> 
 
             <div class="ui vertical pointing menu">
-                <a class="active item" href="/pizzas/add">
-                    Crear pizza
-                    </a>
-                <a class="item" href="/pizzas">
+                <Link to="/pizzas/add" class="item">
+                    Crear pizza </Link>
+                <Link to="/pizzas" class="item">
                     Nuestras pizzas
-                    </a>
-                <a class="item" href="/pizza/1/">
+                    </Link>
+                <Link to="/pizzas/1/" class="item">
                     Ver pizza
-                    </a>
+                    </Link>
             </div>
 
         </div>
