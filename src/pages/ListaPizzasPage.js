@@ -1,6 +1,7 @@
 import React from 'react'
 import MenuLateral, {LISTA_PIZZAS} from '../components/MenuLateral'
 import ListaPizzas from '../components/ListaPizzas'
+import './ListaPizzasPage.css'
 
 
 
