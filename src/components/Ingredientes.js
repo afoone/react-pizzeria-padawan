@@ -10,8 +10,9 @@ const Ingredientes = (props) => {
     console.log(props.valor)
 
     return (
-       
-        <div className="ui centered card"> 
+        <div class="ui four column grid">
+        <div class="column">
+          <div class="ui fluid card">
          
         <div className = "center aligned header, color">   {props.valor.name} </div>
         
@@ -19,7 +20,7 @@ const Ingredientes = (props) => {
     
         <div className ="content, color-bajo"> {props.valor.precio} € </div>
         <button class="ui grey button"> Añadir a la Pizza</button>
-       </div>    
+       </div>    </div></div>
     
         )
 }
