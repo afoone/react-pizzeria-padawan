@@ -185,114 +185,114 @@
       {
         "id": 1,
         "name": "cebolla",
-        "img": "",
+        "img": "https://i.ibb.co/qWX5Y3G/Cebolla-blanca.jpg",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 2,
         "name": "queso",
-        "img": "",
+        "img": "https://i.ibb.co/w4nJYNz/quesodecabra.jpg",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 3,
         "name": "salami",
-        "img": "",
+        "img": "https://i.ibb.co/hd7bPqP/Salami.jpg",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 4,
         "name": "prosciutto",
-        "img": "",
+        "img": "https://i.ibb.co/fY8dM7n/Prosciuto.jpg",
         "precio": 0.50,
         "novedad": true
       },
       {
         "id": 5,
         "name": "peperoni",
-        "img": "",
+        "img": "https://i.ibb.co/jb34xLj/pepper-noun-002-27132.jpg",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 6,
         "name": "pimiento verde",
-        "img": "",
+        "img": "https://i.ibb.co/wJn8W21/Pimientos-Verdes.jpg",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 7,
         "name": "pimiento rojo",
-        "img": "",
+        "img": "https://i.ibb.co/7bC0Ygj/pimientorojo.png",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 8,
         "name": "aceitunas",
-        "img": "",
+        "img": "https://i.ibb.co/Fxg0C4n/Olivas-verdes.jpg",
         "precio": 0.50,
         "novedad": true
       },
       {
         "id": 9,
         "name": "champiñones",
-        "img": "",
+        "img": "https://i.ibb.co/f94DYZq/Champi-iones.jpg",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 10,
         "name": "bacon",
-        "img": "",
+        "img": "https://i.ibb.co/RTDYHRX/bacon.jpg",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 11,
         "name": "carne picada",
-        "img": "",
+        "img": "https://i.ibb.co/mJhbxPd/STEP-1-76642-201713212748.jpg",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 12,
         "name": "pollo",
-        "img": "",
+        "img": "https://i.ibb.co/1dRQrdC/pollo.jpg",
         "precio": 0.50,
         "novedad": true
       },
       {
         "id": 13,
         "name": "alcaparras",
-        "img": "",
+        "img": "https://i.ibb.co/0MbXXTH/Alcaparra.jpg",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 14,
         "name": "cheddar",
-        "img": "",
+        "img": "https://i.ibb.co/28gbDbr/Queso-cheddar.jpg",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 15,
         "name": "tomate",
-        "img": "",
+        "img": "https://i.ibb.co/xYc1BNW/tomates-cherryen.jpg",
         "precio": 0.50,
         "novedad": false
       },
       {
         "id": 16,
-        "name": "chocolate",
-        "img": "",
+        "name": "piña",
+        "img": "https://i.ibb.co/ckkYpXT/pina.jpg",
         "precio": 0.50,
-        "novedad": true
+        "novedad": false
       }
       
     ]
