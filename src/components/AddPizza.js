@@ -36,7 +36,7 @@ export class AddPizza extends Component {
 
   grabarPizza = e => {
     console.log("Grabando")
-    e.preventDefault( );
+    e.preventDefault();
     const nuevaPizza = {
       nombre: this.state.nombre,
       precio: this.state.precio,
