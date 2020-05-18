@@ -9,9 +9,9 @@ export class MenuLateral extends Component {
         return (
 
             <div className="menu-lateral">
-            <img src="/logo192.png" alt=""></img> 
+            {/* <img src="/logo192.png" alt="Imagen logo"></img>  */}
             <div class="ui vertical pointing menu">
-                <Link to="/pizzas/add" class={this.props.active === ADD_PIZZAS ? "active item": "item"}>
+                <Link to="/pizzas/AddPizza" class={this.props.active === ADD_PIZZAS ? "active item": "item"}>
                     Crear pizza </Link>
                 <Link to="/pizzas" 
                     class={this.props.active === LISTA_PIZZAS ? "active item": "item"}>

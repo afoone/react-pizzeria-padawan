@@ -1,12 +1,12 @@
 import React from 'react';
-import ListaPizzas from './components/ListaPizzas';
-import Pizza from './components/Pizza'
+// import ListaPizzas from './components/ListaPizzas';
+// import Pizza from './components/Pizza'
 import Header from './components/Header'
-import MenuLateral from './components/MenuLateral'
+// import MenuLateral from './components/MenuLateral'
 import ListaPizzasPage from './pages/ListaPizzasPage';
+import AddPizza from './components/AddPizza'
 import {
   BrowserRouter as Router,
-  Link,
   Route
 } from 'react-router-dom'
 
@@ -43,6 +43,7 @@ function App() {
        {/* <Route path="/" component={Header}></Route> */}
        <Route exact path="/" component={ListaPizzasPage}></Route>
        <Route exact path="/pizzas" component={ListaPizzasPage}></Route>
+       <Route exact path="/pizzas/AddPizza" component={AddPizza}></Route>
        {/* <Route exact pathpizzas/add" component={AddPizzasPage}></Route> */}
       </Router>
     </div>
