@@ -1,5 +1,6 @@
 import React from 'react'
 import './Pizza.css'
+import {toTitleCase} from '../utils/utils'
 
 // prop pizza
 
@@ -9,7 +10,7 @@ const Pizza = (props) => {
     // console.log(props.valor)
 
 const verIng = props.valor.ingredientes ? props.valor.ingredientes.map ((e, index) => {
-    let texto = e.name;
+    let texto = toTitleCase(e.name);
     if (props.valor.ingredientes.length - 1 > index) {
         if (props.valor.ingredientes.length - 2 === index) {
             texto = texto + " y "
