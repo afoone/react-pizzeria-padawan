@@ -10,6 +10,7 @@ import AddPizza from './components/AddPizza'
 import ListaIngredientesPage from './pages/ListaIngredientesPage'
 // import Ingredientes from './components/Ingredientes'
 // import ListaIngredientes from './components/ListaIngredientes'
+// import ListaIngredientesPage from './pages/ListaIngredientesPage'
 import {
   BrowserRouter as Router,
   Route
@@ -30,8 +31,8 @@ function App() {
 
   return (
     <div className="App">
-   
-      <Router>  
+
+      <Router>
         {/* <ul>
           <li>
             <Link to="/">home</Link>
@@ -41,16 +42,16 @@ function App() {
           <Link to="/pizzas">Lista pizzas</Link>
           </li>
         </ul> */
-           
-        }
-        
 
-       <Route path="/" component={Header}></Route> 
-       <Route exact path="/" component={ListaPizzasPage}></Route>
-       <Route exact path="/pizzas" component={ListaPizzasPage}></Route>
-       <Route exact path="/pizzas/AddPizza" component={AddPizza}></Route>
-       {/* <Route exact pathpizzas/add" component={AddPizzasPage}></Route> */}
-       <Route exact path ="/pizzas/add" component={ListaIngredientesPage}></Route> 
+        }
+
+
+        <Route path="/" component={Header}></Route>
+        <Route exact path="/" component={ListaPizzasPage}></Route>
+        <Route exact path="/pizzas" component={ListaPizzasPage}></Route>
+        <Route exact path="/pizzas/add" component={AddPizza}></Route>
+        {/* <Route exact pathpizzas/add" component={AddPizzasPage}></Route> */}
+        <Route exact path="/ingredientes" component={ListaIngredientesPage}></Route>
       </Router>
     </div>
   );

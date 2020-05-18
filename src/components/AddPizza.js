@@ -36,11 +36,11 @@ export class AddPizza extends Component {
 
   grabarPizza = e => {
     console.log("Grabando")
-    e.preventDefault( );
+    e.preventDefault();
     const nuevaPizza = {
-      nombre: this.state.nombre,
+      name: this.state.nombre,
       precio: this.state.precio,
-      imagen: this.state.imagen
+      img: this.state.imagen
     }
     axios.post(' http://localhost:4000/pizzas', nuevaPizza).then(
       console.log
@@ -64,7 +64,7 @@ export class AddPizza extends Component {
           </div>
           <div class="field">
             <label>imagen</label>
-            <input type="file" name="last-name" onChange={this.onImageChange} value={this.setState.imagen} placeholder="Last Name" />
+            <input type="text" name="last-name" onChange={this.onImageChange} value={this.setState.imagen} placeholder="Last Name" />
           </div>
 
           <button class="ui button" type="submit" onClick={this.grabarPizza}>Grabar</button>
