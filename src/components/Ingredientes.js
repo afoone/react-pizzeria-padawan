@@ -1,5 +1,4 @@
 import React from 'react'
-import MenuLateral from './MenuLateral'
 import './Ingredientes.css'
 
 // prop pizza
