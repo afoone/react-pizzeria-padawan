@@ -5,7 +5,12 @@ import Header from './components/Header'
 // import MenuLateral from './components/MenuLateral'
 import ListaPizzasPage from './pages/ListaPizzasPage';
 import AddPizza from './components/AddPizza'
+// import MenuLateral from './components/MenuLateral'
+
 import ListaIngredientesPage from './pages/ListaIngredientesPage'
+// import Ingredientes from './components/Ingredientes'
+// import ListaIngredientes from './components/ListaIngredientes'
+// import ListaIngredientesPage from './pages/ListaIngredientesPage'
 import {
   BrowserRouter as Router,
   Route
