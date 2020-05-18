@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import "./addPizza.css"
 
 export class AddPizza extends Component {
   constructor(props) {
@@ -52,7 +53,7 @@ export class AddPizza extends Component {
   render() {
     return (
 
-      <div>
+      <div className="container">
         <form class="ui form">
           <div class="field">
             <label>Nombre</label>
@@ -64,10 +65,10 @@ export class AddPizza extends Component {
           </div>
           <div class="field">
             <label>imagen</label>
-            <input type="text" name="last-name" onChange={this.onImageChange} value={this.setState.imagen} placeholder="Last Name" />
+            <input type="text" name="last-name" onChange={this.onImageChange} value={this.setState.imagen} placeholder="Introduce Imagen" />
           </div>
 
-          <button class="ui button" type="submit" onClick={this.grabarPizza}>Grabar</button>
+          <button class="ui button" type="button" onClick={this.grabarPizza}>Grabar</button>
         </form>
 
       </div>

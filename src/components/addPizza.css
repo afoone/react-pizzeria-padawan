@@ -1,0 +1,8 @@
+.container{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid darkblue;
+    display: grid;
+    width: 80%;
+   align-content:space-between;
+}
