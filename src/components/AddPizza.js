@@ -36,7 +36,7 @@ export class AddPizza extends Component {
 
   grabarPizza = e => {
     console.log("Grabando")
-    e.preventDefault( );
+    e.preventDefault();
     const nuevaPizza = {
       name: this.state.nombre,
       precio: this.state.precio,
@@ -64,7 +64,7 @@ export class AddPizza extends Component {
           </div>
           <div class="field">
             <label>imagen</label>
-            <input type="file" name="last-name" onChange={this.onImageChange} value={this.setState.imagen} placeholder="Last Name" />
+            <input type="text" name="last-name" onChange={this.onImageChange} value={this.setState.imagen} placeholder="Last Name" />
           </div>
 
           <button class="ui button" type="submit" onClick={this.grabarPizza}>Grabar</button>
