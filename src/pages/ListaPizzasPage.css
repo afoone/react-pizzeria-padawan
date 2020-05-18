@@ -1,4 +1,11 @@
 .lista-pizzas-page {
-    display: grid;
-    grid-template-columns: 25% 75%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.hijo {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
