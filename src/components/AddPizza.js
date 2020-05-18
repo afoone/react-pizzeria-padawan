@@ -33,12 +33,10 @@ export class AddPizza extends Component {
     )
     /** Fin Manejadores en los inputs************ */
     }
-    
+
   grabarPizza = e => {
     console.log("Grabando")
-    e.preventPizza(
-
-    );
+    e.preventDefault( );
     const nuevaPizza = {
       nombre: this.state.nombre,
       precio: this.state.precio,

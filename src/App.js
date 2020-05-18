@@ -5,6 +5,11 @@ import Header from './components/Header'
 // import MenuLateral from './components/MenuLateral'
 import ListaPizzasPage from './pages/ListaPizzasPage';
 import AddPizza from './components/AddPizza'
+import MenuLateral from './components/MenuLateral'
+
+import ListaIngredientesPage from './pages/ListaIngredientesPage'
+import Ingredientes from './components/Ingredientes'
+import ListaIngredientes from './components/ListaIngredientes'
 import {
   BrowserRouter as Router,
   Route
@@ -21,12 +26,12 @@ import {
 // }
 
 
-
 function App() {
 
   return (
     <div className="App">
-      <Router> <Header></Header> 
+   
+      <Router>  
         {/* <ul>
           <li>
             <Link to="/">home</Link>
@@ -40,11 +45,12 @@ function App() {
         }
         
 
-       {/* <Route path="/" component={Header}></Route> */}
+       <Route path="/" component={Header}></Route> 
        <Route exact path="/" component={ListaPizzasPage}></Route>
        <Route exact path="/pizzas" component={ListaPizzasPage}></Route>
        <Route exact path="/pizzas/AddPizza" component={AddPizza}></Route>
        {/* <Route exact pathpizzas/add" component={AddPizzasPage}></Route> */}
+       <Route exact path ="/pizzas/add" component={ListaIngredientesPage}></Route> 
       </Router>
     </div>
   );

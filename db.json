@@ -1,33 +1,294 @@
 {
-    "pizzas": [
-      {
-        "id": 1,
-        "name": "carbonara",
-        "img": "img/carbonara.png",
-        "precio": 5,
-        "novedad": false
-      },
-      {
-        "id": 2,
-        "name": "margarita",
-        "img": "img/margarita.png",
-        "precio": 4,
-        "novedad": false
-      },
-      {
-        "id": 3,
-        "name": "barbacoa",
-        "img": "img/barbacoa.png",
-        "precio": 5,
-        "novedad": false
-      },
-      {
-        "id": 4,
-        "name": "prosciutto",
-        "img": "img/prosciutto.png",
-        "precio": 6,
-        "novedad": true
-      }
-      
-    ]
-  }
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "carbonara",
+      "img": "img/carbonara.png",
+      "precio": 5,
+      "novedad": false,
+      "ingredientes": [
+        {
+          "id": 1,
+          "name": "bacon",
+          "precio": 0.5
+        },
+        {
+          "id": 2,
+          "name": "queso",
+          "precio": 0.5
+        },
+        {
+          "id": 3,
+          "name": "champiñones",
+          "precio": 0.5
+        },
+        {
+          "id": 4,
+          "name": "cebolla",
+          "precio": 0.5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "margarita",
+      "img": "img/margarita.png",
+      "precio": 4,
+      "novedad": false,
+      "ingredientes": [
+        {
+          "id": 1,
+          "name": "queso",
+          "precio": 0.5
+        },
+        {
+          "id": 2,
+          "name": "tomate",
+          "precio": 0.5
+        },
+        {
+          "id": 3,
+          "name": "albahaca",
+          "precio": 0.5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "barbacoa",
+      "img": "img/barbacoa.png",
+      "precio": 5,
+      "novedad": false,
+      "ingredientes": [
+        {
+          "id": 1,
+          "name": "salsa barbacoa",
+          "precio": 0.5
+        },
+        {
+          "id": 2,
+          "name": "salami",
+          "precio": 0.5
+        },
+        {
+          "id": 3,
+          "name": "pimiento verde",
+          "precio": 0.5
+        },
+        {
+          "id": 4,
+          "name": "pimiento verde",
+          "precio": 0.5
+        },
+        {
+          "id": 5,
+          "name": "carne picada",
+          "precio": 0.5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "prosciutto",
+      "img": "img/prosciutto.png",
+      "precio": 6,
+      "novedad": true,
+      "ingredientes": [
+        {
+          "id": 1,
+          "name": "queso",
+          "precio": 0.5
+        },
+        {
+          "id": 2,
+          "name": "peperoni",
+          "precio": 0.5
+        },
+        {
+          "id": 3,
+          "name": "tomate",
+          "precio": 0.5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "hawaiana",
+      "img": "img/hawaiana.png",
+      "precio": 5,
+      "novedad": true,
+      "ingredientes": [
+        {
+          "id": 1,
+          "name": "queso",
+          "precio": 0.5
+        },
+        {
+          "id": 2,
+          "name": "bacon",
+          "precio": 0.5
+        },
+        {
+          "id": 3,
+          "name": "piña",
+          "precio": 0.5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Queso de Cabra",
+      "img": "img/QuesoCabra.png",
+      "precio": 5,
+      "novedad": true,
+      "ingredientes": [
+        {
+          "id": 1,
+          "name": "queso de cabra",
+          "precio": 0.5
+        },
+        {
+          "id": 2,
+          "name": "cebolla",
+          "precio": 0.5
+        },
+        {
+          "id": 3,
+          "name": "tomates asados",
+          "precio": 0.5
+        },
+        {
+          "id": 4,
+          "name": "albahaca",
+          "precio": 0.5
+        }
+      ]
+    },
+    {
+      "nombre": "Peperoni1",
+      "precio": "9",
+      "imagen": "",
+      "id": 6
+    },
+    {
+      "nombre": "Peperoni1",
+      "precio": "9",
+      "imagen": "",
+      "id": 7
+    }
+  ],
+  "ingredientes": [
+    {
+      "id": 1,
+      "name": "cebolla",
+      "img": "https://i.ibb.co/zfRV20W/Cebolla-blanca.jpg",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 2,
+      "name": "queso",
+      "img": "https://i.ibb.co/Fmb61Lf/Mozarela.jpg",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 3,
+      "name": "salami",
+      "img": "https://i.ibb.co/XXjBLkK/Salami.jpg",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 4,
+      "name": "prosciutto",
+      "img": "https://i.ibb.co/KmbZ6BY/Proscciutto.jpg",
+      "precio": 0.5,
+      "novedad": true
+    },
+    {
+      "id": 5,
+      "name": "peperoni",
+      "img": "https://i.ibb.co/y8zh8ft/pepper-noun.jpg",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 6,
+      "name": "pimiento verde",
+      "img": "https://i.ibb.co/8gshkwv/Pimientos-Verdes.jpg",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 7,
+      "name": "pimiento rojo",
+      "img": "https://i.ibb.co/DrHmzGs/pimientorojo.png",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 8,
+      "name": "aceitunas",
+      "img": "https://i.ibb.co/02ZCB6J/Olivas-verdes.jpg",
+      "precio": 0.5,
+      "novedad": true
+    },
+    {
+      "id": 9,
+      "name": "champiñones",
+      "img": "https://i.ibb.co/TWYy51h/champi.gif",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 10,
+      "name": "bacon",
+      "img": "https://i.ibb.co/Y7hcbR1/bacon.jpg",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 11,
+      "name": "carne picada",
+      "img": "https://i.ibb.co/pWRkWM9/carnepicada.jpg",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 12,
+      "name": "pollo",
+      "img": "https://i.ibb.co/PMdq927/pollo.jpgg",
+      "precio": 0.5,
+      "novedad": true
+    },
+    {
+      "id": 13,
+      "name": "alcaparras",
+      "img": "https://i.ibb.co/qYRfJ9T/Alcaparra.jpg",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 14,
+      "name": "cheddar",
+      "img": "https://i.ibb.co/cFbSy2s/queso-cheddar.jpg",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 15,
+      "name": "tomate",
+      "img": "https://i.ibb.co/bd7FQH8/tomates-cherryen.jpg",
+      "precio": 0.5,
+      "novedad": false
+    },
+    {
+      "id": 16,
+      "name": "piña",
+      "img": "https://i.ibb.co/ckkYpXT/pina.jpg",
+      "precio": 0.5,
+      "novedad": false
+    }
+  ]
+}
