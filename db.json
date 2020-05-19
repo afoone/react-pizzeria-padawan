@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Queso de Cabra",
       "img": "img/QuesoCabra.png",
       "precio": 5,
@@ -165,16 +165,16 @@
       ]
     },
     {
-      "nombre": "Peperoni1",
+      "name": "Peperoni1",
       "precio": "9",
-      "imagen": "",
-      "id": 6
+      "img": "",
+      "id": 7
     },
     {
-      "nombre": "Peperoni1",
+      "name": "Peperoni1",
       "precio": "9",
       "imagen": "",
-      "id": 7
+      "id": 8
     }
   ],
   "ingredientes": [
