@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Pizza from './Pizza'
 import axios from 'axios'
+import "./ListaPizzas.css"
 
 export class ListaPizzas extends Component {
 
@@ -29,7 +30,7 @@ export class ListaPizzas extends Component {
 
     render() {
         return (
-            <div className={`pizza ${this.state.lista}`}>
+            <div className={`lista-pizza`}>
                 
 
                 {

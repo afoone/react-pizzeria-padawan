@@ -5,7 +5,13 @@ import Header from './components/Header'
 // import MenuLateral from './components/MenuLateral'
 import ListaPizzasPage from './pages/ListaPizzasPage';
 import AddPizza from './components/AddPizza'
+// import MenuLateral from './components/MenuLateral'
+
 import ListaIngredientesPage from './pages/ListaIngredientesPage'
+// import Ingredientes from './components/Ingredientes'
+// import ListaIngredientes from './components/ListaIngredientes'
+// import ListaIngredientesPage from './pages/ListaIngredientesPage'
+import CrearPizzaPage from './pages/CrearPizzaPage'
 import {
   BrowserRouter as Router,
   Route
@@ -45,7 +51,7 @@ function App() {
         <Route exact path="/" component={ListaPizzasPage}></Route>
         <Route exact path="/pizzas" component={ListaPizzasPage}></Route>
         <Route exact path="/pizzas/add" component={AddPizza}></Route>
-        {/* <Route exact pathpizzas/add" component={AddPizzasPage}></Route> */}
+        <Route exact path= "/pizzas/add" component={CrearPizzaPage}></Route>
         <Route exact path="/ingredientes" component={ListaIngredientesPage}></Route>
       </Router>
     </div>

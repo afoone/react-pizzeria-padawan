@@ -1,6 +1,5 @@
 import React from 'react'
-import MenuLateral, {ADD_PIZZAS} from '../components/MenuLateral'
-import Ingredientes from '../components/Ingredientes'
+import MenuLateral, {INGREDIENTES} from '../components/MenuLateral'
 import ListaIngredientes from '../components/ListaIngredientes'
 import './ListaPizzasPage.css'
 
@@ -9,7 +8,7 @@ import './ListaPizzasPage.css'
 const ListaIngredientesPage = () => {
     return (
         <div className="lista-pizzas-page">
-            <MenuLateral active={ADD_PIZZAS}></MenuLateral>
+            <MenuLateral active={INGREDIENTES}></MenuLateral>
             <ListaIngredientes></ListaIngredientes>
             
         

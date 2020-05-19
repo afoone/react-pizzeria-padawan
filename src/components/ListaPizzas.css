@@ -1,0 +1,4 @@
+.lista-pizza {
+    display: flex;
+    flex-wrap: wrap;
+}

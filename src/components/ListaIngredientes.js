@@ -29,7 +29,7 @@ export class ListaIngredientes extends Component {
 
     render() {
         return (
-            <div className={`ingredientes ${this.state.lista}`}>
+            <div className={`ingredientes`}>
                 
 
                 {
