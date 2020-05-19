@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const LISTA_PIZZAS = "ListaPizzas";
 export const ADD_PIZZAS = "AddPizza";
+export const INGREDIENTES ="ListaIngredientesPage";
 
 export class MenuLateral extends Component {
     render() {
@@ -17,7 +18,7 @@ export class MenuLateral extends Component {
                         class={this.props.active === LISTA_PIZZAS ? "active item" : "item"}>
                         Nuestras pizzas
                     </Link>
-                    <Link to="/ingredientes/" class="item">
+                    <Link to="/ingredientes/"class={this.props.active === INGREDIENTES ? "active item" : "item"}>
                         Ingredientes
                     </Link>
                 </div>
