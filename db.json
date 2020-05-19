@@ -167,14 +167,26 @@
     {
       "name": "Peperoni1",
       "precio": "9",
-      "img": "",
+      "img": "https://previews.123rf.com/images/gar1984/gar19841904/gar1984190400198/121170541-fresh-tasty-pizza-with-pepperoni-isolated-on-white-background-top-view-.jpg",
       "id": 7
     },
     {
-      "name": "Peperoni1",
+      "name": "Pizza bolognesa",
       "precio": "9",
-      "imagen": "",
+      "img": "https://www.pizzsavoy.com/527-large_default/pizza-bolognesa.jpg",
       "id": 8
+    },
+    {
+      "name": "Pizza cuatro quesos",
+      "precio": "5",
+      "img": "https://www.pizzsavoy.com/490-large_default/pizza-gustosa.jpg",
+      "id": 9
+    },
+    {
+      "name": "Pizza Cuatro Estaciones",
+      "precio": "7",
+      "img": "https://www.pizzsavoy.com/589-large_default/pizza-cuatro-estaciones.jpg",
+      "id": 10
     }
   ],
   "ingredientes": [

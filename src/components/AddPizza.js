@@ -83,9 +83,9 @@ export class AddPizza extends Component {
 
     const { nombre, precio, imagen } = this.state;
     const nuevaPizza = {
-      nombre,
-      precio,
-      imagen
+     name: nombre,
+    precio,
+     img: imagen
     }
     axios.post(' http://localhost:4000/pizzas', nuevaPizza).then(
 
