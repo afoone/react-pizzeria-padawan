@@ -30,7 +30,7 @@ export class ListaIngredientes extends Component {
 
     render() {
         return (
-            <div className={`ingredientes`}>
+            <div className={`lista-ingredientes`}>
                 
 
                 {
