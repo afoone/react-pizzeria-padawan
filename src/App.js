@@ -50,8 +50,8 @@ function App() {
         <Route path="/" component={Header}></Route>
         <Route exact path="/" component={ListaPizzasPage}></Route>
         <Route exact path="/pizzas" component={ListaPizzasPage}></Route>
-        <Route exact path="/pizzas/add" component={AddPizza}></Route>
         <Route exact path= "/pizzas/add" component={CrearPizzaPage}></Route>
+        <Route exact path="/pizzas/add" component={AddPizza}></Route>
         <Route exact path="/ingredientes" component={ListaIngredientesPage}></Route>
       </Router>
     </div>
