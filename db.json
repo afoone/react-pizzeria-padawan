@@ -187,6 +187,18 @@
       "precio": "7",
       "img": "https://www.pizzsavoy.com/589-large_default/pizza-cuatro-estaciones.jpg",
       "id": 10
+    },
+    {
+      "name": "Pizza Brachetto",
+      "precio": "7",
+      "img": "https://www.pizzsavoy.com/pizzas-4-ingredientes/52-pizza-bracheto.html#/masa-normal",
+      "id": 11
+    },
+    {
+      "name": "Pizza Brachetto",
+      "precio": "7",
+      "img": "https://www.pizzsavoy.com/573-thickbox_default/pizza-bracheto.jpg",
+      "id": 12
     }
   ],
   "ingredientes": [
