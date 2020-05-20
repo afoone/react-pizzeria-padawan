@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Ingredientes from './Ingredientes'
 import axios from 'axios'
+import "./ListaIngredientes.css"
 
 export class ListaIngredientes extends Component {
 

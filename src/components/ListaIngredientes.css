@@ -1,0 +1,4 @@
+.ingredientes {
+    display: flex;
+    flex-wrap: wrap;
+}

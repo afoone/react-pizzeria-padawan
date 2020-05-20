@@ -1,0 +1,11 @@
+.lista-ingedientes-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.ListaIngredientes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
