@@ -3,7 +3,7 @@
     margin: 0px;
     border: 1px solid darkblue;
     display: grid;
-    width: 50%;
+    width: 80%;
     align-content:space-between;
 }
 .field > label{font-size: 2em;

@@ -1,13 +1,4 @@
-.lista-pizzas-page {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
-
-.addPizza {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-
+.crear-pizzas-page {
+    display: grid;
+    grid-template-columns: 20% 80%;
 }
