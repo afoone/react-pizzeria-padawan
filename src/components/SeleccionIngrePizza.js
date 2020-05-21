@@ -1,7 +1,7 @@
 import React from "react";
 import MultiSelect from "react-multi-select-component";
 
-class Example extends React.Component {
+class SeleccionIngrePizza extends React.Component {
 
     constructor(props){
         super(props);
@@ -27,7 +27,7 @@ class Example extends React.Component {
     render() {
         return (
             <div>
-                <h1>Select Fruits</h1>
+                <h3>Selecciona tus ingredientes</h3>
                 <pre>{JSON.stringify(this.state.selected)}</pre>
                 <MultiSelect
                     options={this.state.options}
@@ -45,4 +45,4 @@ class Example extends React.Component {
     }
 };
 
-export default Example;
+export default SeleccionIngrePizza;

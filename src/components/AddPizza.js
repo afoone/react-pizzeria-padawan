@@ -162,7 +162,7 @@ export class AddPizza extends Component {
                             onChange={this.onImagenChange} />
                         <MensajeError mensaje={this.state.imagenError}></MensajeError>
                     </div>
-
+                    
               <button class="ui button" type="submit" onClick={this.onSubmit}>Grabar</button>
         </form>
 
