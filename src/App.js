@@ -1,16 +1,7 @@
 import React from 'react';
-// import ListaPizzas from './components/ListaPizzas';
-// import Pizza from './components/Pizza'
 import Header from './components/Header'
-// import MenuLateral from './components/MenuLateral'
 import ListaPizzasPage from './pages/ListaPizzasPage';
-// import AddPizza from './components/AddPizza'
-// import MenuLateral from './components/MenuLateral'
-import SeleccionIngrePizza from './components/SeleccionIngrePizza'
 import ListaIngredientesPage from './pages/ListaIngredientesPage'
-// import Ingredientes from './components/Ingredientes'
-// import ListaIngredientes from './components/ListaIngredientes'
-// import ListaIngredientesPage from './pages/ListaIngredientesPage'
 import CrearPizzaPage from './pages/CrearPizzaPage'
 
 import {
@@ -52,7 +43,6 @@ function App() {
         <Route exact path="/" component={ListaPizzasPage}></Route>
         <Route exact path="/pizzas" component={ListaPizzasPage}></Route>
         <Route exact path= "/pizzas/add" component={CrearPizzaPage}></Route>
-        <Route exact path= "/pizzas/add" component={SeleccionIngrePizza}></Route>
         <Route exact path="/ingredientes" component={ListaIngredientesPage}></Route>
       </Router>
     </div>

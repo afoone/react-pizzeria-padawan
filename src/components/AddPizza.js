@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import "./addPizza.css"
+import MultiSelect from "react-multi-select-component";
 
 
 export const MensajeError = (props) => {
@@ -26,12 +27,40 @@ export class AddPizza extends Component {
       nombre: '',
       precio: '',
       imagen: '',
+      ingredientes: [],
+      options: [],
 
       nombreError: null,
       precioError: null,
       imagenError: null
     }
   }
+
+  componentDidMount () {
+
+    axios.get("http://localhost:4000/ingredientes").then(
+
+          res => {
+                  
+            this.setState({
+              
+              options: res.data.map(
+                e => {
+                  return {
+  
+                        label: e.name,
+                        value: e
+  
+                  }
+                })
+                }
+            )
+
+            }
+          ).catch(
+              console.error
+          )
+}
 
   validate = () => {
 
@@ -134,6 +163,12 @@ export class AddPizza extends Component {
     /** Fin Manejadores en los inputs************ */
     }
 
+    onIngredienteChanged = e =>{
+      this.setState({
+          ingredientes: e
+      })
+  }
+
   render() {
     return (
 
@@ -161,6 +196,21 @@ export class AddPizza extends Component {
                             value={this.state.imagen}
                             onChange={this.onImagenChange} />
                         <MensajeError mensaje={this.state.imagenError}></MensajeError>
+                    </div>
+                    <div>
+                      <label></label>
+            <MultiSelect
+              options={this.state.options}
+              value={this.state.ingredientes}
+              onChange={this.onIngredienteChanged}
+
+              labelledBy={"Selecciona"}
+              overrideStrings={
+                {
+                  selectSomeItems: "Selecciona",
+                }
+              }
+            />
                     </div>
                     
               <button class="ui button" type="submit" onClick={this.onSubmit}>Grabar</button>
