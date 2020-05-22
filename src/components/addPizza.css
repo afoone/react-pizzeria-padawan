@@ -1,4 +1,6 @@
 .container{
+    display: grid;
+    grid-template-columns: 100% auto;
     padding: 0px;
     margin: 0px;
     border: 1px solid darkblue;
@@ -8,4 +10,8 @@
 }
 .field > label{font-size: 2em;
     background-color: chocolate;
+}
+
+MultiSelect{
+    width: 80%;
 }
