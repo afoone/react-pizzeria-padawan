@@ -135,7 +135,8 @@ export class AddPizza extends Component {
 
             nombre: "",
             precio: "",
-            imagen: ""
+            imagen: "",
+            ingredientes: ""
 
           }
 
@@ -170,10 +171,12 @@ export class AddPizza extends Component {
     /** Fin Manejadores en los inputs************ */
     }
 
-    onIngredienteChanged = e =>{
-      this.setState({
-          ingredientes: e
-      })
+  onIngredienteChanged = e =>{
+    this.setState(
+      {
+        ingredientes: e
+      }
+    )
   }
 
   render() {
@@ -206,18 +209,17 @@ export class AddPizza extends Component {
                     </div>
                     <div>
                       <label></label>
-            <MultiSelect
-              options={this.state.options}
-              value={this.state.ingredientes}
-              onChange={this.onIngredienteChanged}
-
-              labelledBy={"Selecciona"}
-              overrideStrings={
-                {
-                  selectSomeItems: "Selecciona",
-                }
-              }
-            />
+                        <MultiSelect
+                          options={this.state.options}
+                          value={this.state.ingredientes}
+                          onChange={this.onIngredienteChanged}
+                          labelledBy={"Selecciona"}
+                          overrideStrings={
+                            {
+                              selectSomeItems: "Selecciona",
+                            }
+                          }
+                        />
                     </div>
                     
               <button class="ui button" type="submit" onClick={this.onSubmit}>Grabar</button>
