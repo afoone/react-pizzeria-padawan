@@ -6,52 +6,31 @@
       "img": "img/carbonara.png",
       "precio": 5,
       "novedad": false,
-      "ingredientes": [
-        {
-          "id": 1,
-          "name": "bacon",
-          "precio": 0.5
-        },
-        {
-          "id": 2,
-          "name": "queso",
-          "precio": 0.5
-        },
-        {
-          "id": 3,
-          "name": "champiñones",
-          "precio": 0.5
-        },
-        {
-          "id": 4,
-          "name": "cebolla",
-          "precio": 0.5
-        }
-      ]
+      "ingredientes": []
     },
     {
-      "id": 2,
       "name": "margarita",
-      "img": "img/margarita.png",
       "precio": 4,
-      "novedad": false,
+      "img": "img/margarita.png",
       "ingredientes": [
         {
           "id": 1,
-          "name": "queso",
-          "precio": 0.5
+          "name": "cebolla"
         },
         {
           "id": 2,
-          "name": "tomate",
-          "precio": 0.5
+          "name": "queso"
         },
         {
           "id": 3,
-          "name": "albahaca",
-          "precio": 0.5
+          "name": "salami"
+        },
+        {
+          "id": 5,
+          "name": "peperoni"
         }
-      ]
+      ],
+      "id": 2
     },
     {
       "id": 3,
