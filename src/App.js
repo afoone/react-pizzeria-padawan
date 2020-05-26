@@ -3,6 +3,8 @@ import Header from './components/Header'
 import ListaPizzasPage from './pages/ListaPizzasPage';
 import ListaIngredientesPage from './pages/ListaIngredientesPage'
 import CrearPizzaPage from './pages/CrearPizzaPage'
+import EditPizza from './components/EditPizza'
+
 
 import {
   BrowserRouter as Router,
@@ -42,6 +44,7 @@ function App() {
         <Route path="/" component={Header}></Route>
         <Route exact path="/" component={ListaPizzasPage}></Route>
         <Route exact path="/pizzas" component={ListaPizzasPage}></Route>
+        <Route exact path="/pizzas/edit/:id" component={EditPizza}></Route>
         <Route exact path= "/pizzas/add" component={CrearPizzaPage}></Route>
         <Route exact path="/ingredientes" component={ListaIngredientesPage}></Route>
       </Router>
