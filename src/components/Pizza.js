@@ -1,12 +1,7 @@
 import React from 'react'
 import './Pizza.css'
-import EditPizza from './EditPizza'
 import {toTitleCase} from '../utils/utils'
-import {
-    HashRouter as Router,
-    Link,
-    Route
-  } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 // prop pizza
 
