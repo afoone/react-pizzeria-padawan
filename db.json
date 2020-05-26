@@ -186,59 +186,11 @@
       "ingredientes": [
         {
           "id": 1,
-          "name": "cebolla",
-          "img": "https://i.ibb.co/zfRV20W/Cebolla-blanca.jpg",
-          "precio": 0.5,
-          "novedad": false
+          "name": "cebolla"
         },
         {
           "id": 2,
-          "name": "queso",
-          "img": "https://i.ibb.co/Fmb61Lf/Mozarela.jpg",
-          "precio": 0.5,
-          "novedad": false
-        },
-        {
-          "id": 4,
-          "name": "prosciutto",
-          "img": "https://i.ibb.co/KmbZ6BY/Proscciutto.jpg",
-          "precio": 0.5,
-          "novedad": true
-        },
-        {
-          "id": 7,
-          "name": "pimiento rojo",
-          "img": "https://i.ibb.co/DrHmzGs/pimientorojo.png",
-          "precio": 0.5,
-          "novedad": false
-        },
-        {
-          "id": 8,
-          "name": "aceitunas",
-          "img": "https://i.ibb.co/02ZCB6J/Olivas-verdes.jpg",
-          "precio": 0.5,
-          "novedad": true
-        },
-        {
-          "id": 9,
-          "name": "champiñones",
-          "img": "https://i.ibb.co/TWYy51h/champi.gif",
-          "precio": 0.5,
-          "novedad": false
-        },
-        {
-          "id": 13,
-          "name": "alcaparras",
-          "img": "https://i.ibb.co/qYRfJ9T/Alcaparra.jpg",
-          "precio": 0.5,
-          "novedad": false
-        },
-        {
-          "id": 14,
-          "name": "cheddar",
-          "img": "https://i.ibb.co/cFbSy2s/queso-cheddar.jpg",
-          "precio": 0.5,
-          "novedad": false
+          "name": "queso"
         }
       ],
       "id": 13
