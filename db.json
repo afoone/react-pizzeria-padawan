@@ -3,7 +3,7 @@
     {
       "name": "carbonara",
       "precio": 5,
-      "img": "img/carbonara.png",
+      "img": "/img/carbonara.png",
       "ingredientes": [
         {
           "id": 2,
@@ -19,7 +19,7 @@
     {
       "name": "margarita",
       "precio": 4,
-      "img": "img/margarita.png",
+      "img": "/img/margarita.png",
       "ingredientes": [
         {
           "id": 1,
@@ -41,152 +41,98 @@
       "id": 2
     },
     {
-      "id": 3,
       "name": "barbacoa",
-      "img": "img/barbacoa.png",
       "precio": 5,
-      "novedad": false,
+      "img": "/img/barbacoa.png",
       "ingredientes": [
         {
           "id": 1,
-          "name": "salsa barbacoa",
-          "precio": 0.5
+          "name": "salsa barbacoa"
         },
         {
           "id": 2,
-          "name": "salami",
-          "precio": 0.5
+          "name": "salami"
         },
         {
           "id": 3,
-          "name": "pimiento verde",
-          "precio": 0.5
+          "name": "pimiento verde"
         },
         {
           "id": 4,
-          "name": "pimiento verde",
-          "precio": 0.5
+          "name": "pimiento verde"
         },
         {
           "id": 5,
-          "name": "carne picada",
-          "precio": 0.5
+          "name": "carne picada"
         }
-      ]
+      ],
+      "id": 3
     },
     {
-      "id": 4,
       "name": "prosciutto",
-      "img": "img/prosciutto.png",
       "precio": 6,
-      "novedad": true,
+      "img": "/img/prosciutto.png",
       "ingredientes": [
         {
           "id": 1,
-          "name": "queso",
-          "precio": 0.5
+          "name": "queso"
         },
         {
           "id": 2,
-          "name": "peperoni",
-          "precio": 0.5
+          "name": "peperoni"
         },
         {
           "id": 3,
-          "name": "tomate",
-          "precio": 0.5
+          "name": "tomate"
         }
-      ]
+      ],
+      "id": 4
     },
     {
-      "id": 5,
       "name": "hawaiana",
-      "img": "img/hawaiana.png",
       "precio": 5,
-      "novedad": true,
+      "img": "/img/hawaiana.png",
       "ingredientes": [
         {
           "id": 1,
-          "name": "queso",
-          "precio": 0.5
+          "name": "queso"
         },
         {
           "id": 2,
-          "name": "bacon",
-          "precio": 0.5
+          "name": "bacon"
         },
         {
           "id": 3,
-          "name": "piña",
-          "precio": 0.5
+          "name": "piña"
         }
-      ]
+      ],
+      "id": 5
     },
     {
-      "id": 6,
       "name": "Queso de Cabra",
-      "img": "img/QuesoCabra.png",
       "precio": 5,
-      "novedad": true,
+      "img": "/img/QuesoCabra.png",
       "ingredientes": [
         {
           "id": 1,
-          "name": "queso de cabra",
-          "precio": 0.5
+          "name": "queso de cabra"
         },
         {
           "id": 2,
-          "name": "cebolla",
-          "precio": 0.5
+          "name": "cebolla"
         },
         {
           "id": 3,
-          "name": "tomates asados",
-          "precio": 0.5
+          "name": "tomates asados"
         },
         {
           "id": 4,
-          "name": "albahaca",
-          "precio": 0.5
+          "name": "albahaca"
         }
-      ]
+      ],
+      "id": 6
     },
-    {
-      "name": "Peperoni1",
-      "precio": "9",
-      "img": "https://previews.123rf.com/images/gar1984/gar19841904/gar1984190400198/121170541-fresh-tasty-pizza-with-pepperoni-isolated-on-white-background-top-view-.jpg",
-      "id": 7
-    },
-    {
-      "name": "Pizza bolognesa",
-      "precio": "9",
-      "img": "https://www.pizzsavoy.com/527-large_default/pizza-bolognesa.jpg",
-      "id": 8
-    },
-    {
-      "name": "Pizza cuatro quesos",
-      "precio": "5",
-      "img": "https://www.pizzsavoy.com/490-large_default/pizza-gustosa.jpg",
-      "id": 9
-    },
-    {
-      "name": "Pizza Cuatro Estaciones",
-      "precio": "7",
-      "img": "https://www.pizzsavoy.com/589-large_default/pizza-cuatro-estaciones.jpg",
-      "id": 10
-    },
-    {
-      "name": "Pizza Brachetto",
-      "precio": "7",
-      "img": "https://www.pizzsavoy.com/pizzas-4-ingredientes/52-pizza-bracheto.html#/masa-normal",
-      "id": 11
-    },
-    {
-      "name": "Pizza Brachetto",
-      "precio": "7",
-      "img": "https://www.pizzsavoy.com/573-thickbox_default/pizza-bracheto.jpg",
-      "id": 12
-    },
+
     {
       "name": "Armando",
       "precio": "14",
@@ -201,7 +147,7 @@
           "name": "queso"
         }
       ],
-      "id": 13
+      "id": 7
     }
   ],
   "ingredientes": [
