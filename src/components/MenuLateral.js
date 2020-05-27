@@ -5,6 +5,7 @@ export const LISTA_PIZZAS = "ListaPizzas";
 export const ADD_PIZZAS = "AddPizza";
 export const INGREDIENTES ="ListaIngredientesPage";
 export const LOGIN ="Login";
+export const LOGOUT="LogOut.js"
 
 export class MenuLateral extends Component {
     render() {
@@ -22,7 +23,7 @@ export class MenuLateral extends Component {
                         Ingredientes</Link>
                     <Link to="/login" class={this.props.active === LOGIN ? "active item" : "item"}>
                         Login con Google </Link>
-                    <Link to="/Log out" class={this.props.active === LISTA_PIZZAS ? "active item" : "item"}>
+                    <Link to="/LogOut" class={this.props.active === LOGOUT ? "active item" : "item"}>
                         Log out</Link>
                     
                         

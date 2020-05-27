@@ -14,7 +14,10 @@ export class LogOut extends Component {
     render() {
         return (
             <div>
-                {localStorage.removeItem("user")}
+                {localStorage.removeItem("user")
+                (console.log(localStorage,redirigir,"Pepito"))
+                   
+                }
                 {this.setState ({redirigir : true})}
                 {this.state.redirigir ? <Redirect to="/pizzas"/> : null}
                 
