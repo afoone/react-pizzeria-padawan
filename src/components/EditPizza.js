@@ -155,7 +155,8 @@ export class EditPizza extends Component {
 
             nombre: "",
             precio: "",
-            imagen: ""
+            imagen: "",
+            ingredientes: ""
 
           }
 

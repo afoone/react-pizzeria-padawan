@@ -1,12 +1,20 @@
 {
   "pizzas": [
     {
-      "id": 1,
       "name": "carbonara",
-      "img": "img/carbonara.png",
       "precio": 5,
-      "novedad": false,
-      "ingredientes": []
+      "img": "img/carbonara.png",
+      "ingredientes": [
+        {
+          "id": 2,
+          "name": "queso"
+        },
+        {
+          "id": 1,
+          "name": "cebolla"
+        }
+      ],
+      "id": 1
     },
     {
       "name": "margarita",
@@ -356,6 +364,26 @@
       "img": "https://i.ibb.co/ckkYpXT/pina.jpg",
       "precio": 0.5,
       "novedad": false
+    }
+  ],
+  "usuario": [
+    {
+      "googleId": "109684273414697590313",
+      "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GiJuLibbWVt1sMkToyhZxbhKfC47MtgsCL4DNAX=s96-c",
+      "email": "david.adtivamedia@gmail.com",
+      "name": "David Cedeño",
+      "givenName": "David",
+      "familyName": "Cedeño",
+      "id": 1
+    },
+    {
+      "googleId": "104502351407478594717",
+      "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GhOMYwhwGrxlUw68A00_LEy6rTjlixCzrNVbjVT=s96-c",
+      "email": "david.e.cedeno.e@gmail.com",
+      "name": "David Eduardo Cedeño Espinoza",
+      "givenName": "David Eduardo",
+      "familyName": "Cedeño Espinoza",
+      "id": 2
     }
   ]
 }
