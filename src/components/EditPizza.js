@@ -138,7 +138,7 @@ export class EditPizza extends Component {
       name: nombre,
       precio,
       img: imagen,
-      ingredientes: this.state.ingredientes.map(
+      ingredientes: ingredientes.map(
         e => {
           return {
             id: e.value,
@@ -169,10 +169,7 @@ export class EditPizza extends Component {
       } 
     )
    
-   if (this.state.redirigir){
    
-      <Redirect to="http://localhost:3000/pizzas"/> 
-    } 
    
 
   }
@@ -211,6 +208,8 @@ export class EditPizza extends Component {
 
 
       <div className="container">
+
+            {this.state.redirigir ? <Redirect to="/pizzas"/> : null}
 
         <form className="ui form">
 
