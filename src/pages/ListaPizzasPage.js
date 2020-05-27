@@ -13,7 +13,7 @@ const ListaPizzasPage = () => {
 
         <div className="lista-pizzas-page">
                 
-                <h2>Yo soy tu pizza {usuario.givenName}</h2>
+                {usuario && <h2>Yo soy tu pizza {usuario.givenName}</h2>}
 
             <div className="hijo">
                 <hijo></hijo>
