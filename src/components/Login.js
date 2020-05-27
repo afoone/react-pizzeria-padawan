@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import GoogleLogin from 'react-google-login'
 import axios from 'axios'
+import { Redirect } from 'react-router-dom'
 
 
 const Login = () => {
@@ -37,7 +38,8 @@ const Login = () => {
     return (
 
         <div>
-            {redirect? <div>redirigeme</div>:null}
+
+            {redirect ? <Redirect to="/pizzas"/> : null}
 
             <GoogleLogin
 
