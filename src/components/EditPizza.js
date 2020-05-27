@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import "./editPizza.css"
 import MultiSelect from "react-multi-select-component";
+import { Redirect } from 'react-router-dom';
 
 export const MensajeError = (props) => {
 
@@ -31,7 +32,9 @@ export class EditPizza extends Component {
 
       nombreError: null,
       precioError: null,
-      imagenError: null
+      imagenError: null,
+      redirigir:false
+
     }
   }
   componentDidMount() {
@@ -122,7 +125,8 @@ export class EditPizza extends Component {
 
   /**Grabar cambios */
   onSubmit = (e) => {
-    console.log("Grabando")
+
+    this.setState({redirigir:true})
 
     e.preventDefault();
 
@@ -162,9 +166,14 @@ export class EditPizza extends Component {
 
         )
 
-      }
-
+      } 
     )
+   
+   if (this.state.redirigir){
+   
+      <Redirect to="http://localhost:3000/pizzas"/> 
+    } 
+   
 
   }
   onNombreChange = e => {
