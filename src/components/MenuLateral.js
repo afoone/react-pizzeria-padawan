@@ -18,10 +18,13 @@ export class MenuLateral extends Component {
                         Nuestras pizzas</Link>
                     <Link to="/login" class={this.props.active === LOGIN ? "active item" : "item"}>
                         Login con Google </Link>
+                    <Link to="/Log out" class={this.props.active === LISTA_PIZZAS ? "active item" : "item"}>
+                        Log out</Link>
                     <Link to="/pizzas/add" class={this.props.active === ADD_PIZZAS ? "active item" : "item"}>
                         Crear pizza </Link>
                     <Link to="/ingredientes/"class={this.props.active === INGREDIENTES ? "active item" : "item"}>
                         Ingredientes</Link>
+                        
 
                 </div>
 
