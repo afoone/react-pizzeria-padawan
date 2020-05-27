@@ -3,11 +3,9 @@ import MenuLateral, {LISTA_PIZZAS} from '../components/MenuLateral'
 import ListaPizzas from '../components/ListaPizzas'
 import './ListaPizzasPage.css'
 
-const usuario = JSON.parse(localStorage.getItem("user"));
-
 const ListaPizzasPage = () => {
 
-    
+    const usuario = JSON.parse(localStorage.getItem("user"));
 
     return (
 
