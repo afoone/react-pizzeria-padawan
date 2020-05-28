@@ -38,6 +38,7 @@ const verIng = props.valor.ingredientes ? props.valor.ingredientes.map ((e, inde
         <div className ="content, color-bajo"> {props.valor.precio} € </div>
         <div>  <Link to={`/pizzas/edit/${props.valor.id}`}>Editar Pizza</Link></div>
         <div>  <Link to={`/pizzas/ver/${props.valor.id}`}>Ver Pizza</Link></div>
+        <div>  <Link to={`/pizzas/borrar/${props.valor.id}`}>Borrar Pizza</Link></div>
         <span className="verIng">{verIng}</span>
         
         </div>   
