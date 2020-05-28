@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom'
 import LoginPage from './pages/LoginPage';
 import VerPizza from './components/VerPizza';
+import BorrarPizza from './components/BorrarPizza'
 
 
 
@@ -47,6 +48,7 @@ function App() {
         <Route exact path="/pizzas" component={ListaPizzasPage}></Route>
         <Route exact path="/pizzas/edit/:id" component={EditPizza}></Route>
         <Route exact path="/pizzas/ver/:id" component={VerPizza}></Route>
+        <Route exact path="/pizzas/borrar/:id" component={BorrarPizza}></Route>
         <Route exact path= "/pizzas/add" component={CrearPizzaPage}></Route>
         <Route exact path="/ingredientes" component={ListaIngredientesPage}></Route>
       </Router>
