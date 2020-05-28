@@ -1,23 +1,27 @@
 import React, { Component } from 'react'
+import { Redirect } from 'react-router-dom';
+import { GoogleLogout } from "react-google-login";
 
 export class LogOut extends Component {
 
     constructor (props) {
 
         super (props) ;
-        this.setState({redirigir : false})
+        this.state = {redirigir : false}
 
     }
 
 
 
     render() {
-        return (
+        return (            
             <div>
+                {console.log(localStorage)}
+
                 {localStorage.removeItem("user")}
                    
                 
-               { this.setState ({redirigir : true})}
+               { this.setState ({redirigir : true})}               
                 {this.state.redirigir ? <Redirect to="/pizzas"/> : null}
                 
             </div>

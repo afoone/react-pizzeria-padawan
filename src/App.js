@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom'
 import LoginPage from './pages/LoginPage';
 import VerPizza from './components/VerPizza';
+import LogOut from './components/LogOut';
 
 
 
@@ -44,6 +45,7 @@ function App() {
         <Route path="/" component={Header}></Route>
         <Route exact path="/" component={ListaPizzasPage}></Route>
         <Route exact path="/login" component={LoginPage}></Route>
+        <Route exact path="/LogOut" component={LogOut}></Route>
         <Route exact path="/pizzas" component={ListaPizzasPage}></Route>
         <Route exact path="/pizzas/edit/:id" component={EditPizza}></Route>
         <Route exact path="/pizzas/ver/:id" component={VerPizza}></Route>
