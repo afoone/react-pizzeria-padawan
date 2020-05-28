@@ -10,11 +10,8 @@ import {
 } from 'react-router-dom'
 import LoginPage from './pages/LoginPage';
 import VerPizza from './components/VerPizza';
-<<<<<<< HEAD
 import LogOut from './components/LogOut';
-=======
 import BorrarPizza from './components/BorrarPizza'
->>>>>>> b7ab17465bb03a973f97aa66807cb7352cb78651
 
 
 
