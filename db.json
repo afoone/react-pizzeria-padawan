@@ -12,6 +12,10 @@
         {
           "id": 1,
           "name": "cebolla"
+        },
+        {
+          "id": 10,
+          "name": "bacon"
         }
       ],
       "id": 1
