@@ -131,27 +131,6 @@
         }
       ],
       "id": 6
-    },
-
-    {
-      "name": "Armando",
-      "precio": "14",
-      "img":"https://www.pizzsavoy.com/667-thickbox_default/pizza-turca.jpg",
-      "ingredientes": [
-        {
-          "id": 1,
-          "name": "cebolla"
-        },
-        {
-          "id": 2,
-          "name": "queso"
-        },
-        {
-          "id": 11,
-          "name": "carne picada"
-        }
-      ],
-      "id": 7
     }
   ],
   "ingredientes": [
@@ -286,6 +265,15 @@
       "givenName": "David Eduardo",
       "familyName": "Cedeño Espinoza",
       "id": 2
+    },
+    {
+      "googleId": "104154929656605084957",
+      "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GgY0j6IRaGXcRbFzqM4DgqzaLD_CpfuoZf9QPOyMQ=s96-c",
+      "email": "dece8020@gmail.com",
+      "name": "David Cedeño",
+      "givenName": "David",
+      "familyName": "Cedeño",
+      "id": 3
     }
   ]
 }

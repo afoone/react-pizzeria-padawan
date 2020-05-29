@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom';
-import { GoogleLogout } from "react-google-login";
+
 
 export class LogOut extends Component {
 

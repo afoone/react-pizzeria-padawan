@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import Pizza from './Pizza'
+
 export class BorrarPizza extends Component {
 
     constructor (props)
