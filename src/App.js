@@ -12,6 +12,7 @@ import LoginPage from './pages/LoginPage';
 import VerPizza from './components/VerPizza';
 import LogOut from './components/LogOut';
 import BorrarPizza from './components/BorrarPizza'
+import MenuLateral from './components/MenuLateral';
 
 
 
@@ -44,6 +45,9 @@ function App() {
 
 
         <Route path="/" component={Header}></Route>
+        <Route path="/pizzas/edit/:id" component={MenuLateral}></Route>
+        <Route path="/pizzas/ver/:id" component={MenuLateral}></Route>
+        <Route path="/pizzas/borrar/:id" component={MenuLateral}></Route>
         <Route exact path="/" component={ListaPizzasPage}></Route>
         <Route exact path="/login" component={LoginPage}></Route>
         <Route exact path="/LogOut" component={LogOut}></Route>
