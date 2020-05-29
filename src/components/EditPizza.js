@@ -206,8 +206,8 @@ export class EditPizza extends Component {
   render() {
     return (
 
-      <div className="body">
-              <div className="container">
+    
+              <div className="containerEdit">
 
             {this.state.redirigir ? <Redirect to="/pizzas"/> : null}
 
@@ -253,7 +253,7 @@ export class EditPizza extends Component {
           <button class="ui button" type="submit" onClick={this.onSubmit}>Modificar</button>
         </form>
 
-      </div> </div>
+      </div> 
     )
   }
 }

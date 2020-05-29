@@ -1,9 +1,10 @@
-.container{
+.containerEdit{
     padding: 0px;
-    margin: 0px;
+    margin-left: 25%;
+    margin-top: -20%;
     border: 1px solid darkblue;
     display: grid;
-    width: 80%;
+    width: 70%;
     align-content:space-between;
 }
 .field > label{font-size: 2em;
